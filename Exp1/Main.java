@@ -3,7 +3,6 @@ class Stack {
     private int top;
     private int capacity;
     
-    // Constructor
     public Stack(int size) {
         capacity = size;
         stack = new int[capacity];
@@ -90,12 +89,11 @@ public class Main {
         
         stack.push(60);
         
-        // Display stack
+        
         stack.display();
         
         System.out.println("Top element: " + stack.peek());
         
-        // Test pop operations
         stack.pop();
         stack.pop();
         stack.pop();
