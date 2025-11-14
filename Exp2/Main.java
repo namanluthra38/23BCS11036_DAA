@@ -1,5 +1,5 @@
 
-class Main {
+public class Main {
     double helper(double x, int n){
         if(n==1) return x;
         if(n%2==0) return helper(x*x,n/2);
